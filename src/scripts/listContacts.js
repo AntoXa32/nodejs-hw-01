@@ -1,3 +1,3 @@
-import { getAllContacts } from './getAllContacts.js';
+import getAllContacts from './getAllContacts.js';
 
-console.log(await getAllContacts);
+console.log(await getAllContacts());
